@@ -99,11 +99,12 @@ namespace Assignment_3Prog2
         {
 
             string outputString = "";
-            outputString += $" Name    :  {Name}  \n";
-            outputString += $" Diameter :  {Diameter}  \n";
-            outputString += $" Mass   :  {Mass}  \n";
-          //  outputString += $" Type    :  {Type}  \n";
-            //outputString += $" has Oxygen   :  {oxygen}  \n";
+            outputString += $"************************* \n";
+            outputString += $"Name     :  {Name}        \n";
+            outputString += $"Diameter :  {Diameter}    \n";
+            outputString += $"Mass     :  {Mass}        \n";
+            outputString += $"************************* \n";
+
             return outputString;
         }
     }

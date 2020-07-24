@@ -36,5 +36,18 @@ namespace Assignment_3Prog2
             
            else  return false;
         }
+        public override string ToString()
+        {
+
+            string outputString = "";
+            outputString += $"************************* \n";
+            outputString += $"Name     :  {Name}        \n";
+            outputString += $"Diameter :  {Diameter}    \n";
+            outputString += $"Mass     :  {Mass}        \n";
+            outputString += $"Type     :  {m_oxygen}    \n";
+            outputString += $"************************* \n";
+            
+            return outputString;
+        }
     }
 }
