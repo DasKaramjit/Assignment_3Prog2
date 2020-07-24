@@ -11,14 +11,14 @@ namespace Assignment_3Prog2
         //private instance fields
         bool m_oxygen;
 
-        //constructor
+        // constructor
         public Terrestialplanet(string name, double diameter, double mass, bool oxygen) 
             : base(name, diameter, mass)
         {
             m_oxygen = oxygen;
         }
 
-        //methods
+        // public bool methods
         public bool HasMoons()
         {
             if (Mooncount > 0)
@@ -36,6 +36,8 @@ namespace Assignment_3Prog2
             
            else  return false;
         }
+
+        // ToString method
         public override string ToString()
         {
 

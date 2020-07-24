@@ -94,7 +94,7 @@ namespace Assignment_3Prog2
             m_diameter = diameter;
             m_mass = mass;
         }
-
+        // ToString method
         public override string ToString()
         {
 

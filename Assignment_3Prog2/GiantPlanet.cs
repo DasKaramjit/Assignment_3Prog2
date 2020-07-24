@@ -12,7 +12,7 @@
             m_type = type;
         }
 
-        //methods
+        // public bool methods
 
         public bool HasMoons()
         {
@@ -31,6 +31,8 @@
             }
             else return false;
         }
+
+        // ToString method
         public override string ToString()
         {
 

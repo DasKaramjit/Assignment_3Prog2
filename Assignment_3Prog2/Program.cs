@@ -24,7 +24,7 @@ namespace Assignment_3Prog2
             Console.WriteLine(terrestialPlanet.ToString());
 
         }
-
+        // to let user enter key to exit
         private static void AnyKeyClose()
         {
             Console.ReadLine();
