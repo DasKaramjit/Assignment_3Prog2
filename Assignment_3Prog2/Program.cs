@@ -20,6 +20,7 @@ namespace Assignment_3Prog2
         {
             GiantPlanet giantPlanet = new GiantPlanet("Jupiter", 45668, 4567, "Gas");
             Console.WriteLine(giantPlanet.ToString());
+            giantPlanet.HasMoons();
             Terrestialplanet terrestialPlanet = new Terrestialplanet("Earth", 6545, 3453, (true ));
             Console.WriteLine(terrestialPlanet.ToString());
 

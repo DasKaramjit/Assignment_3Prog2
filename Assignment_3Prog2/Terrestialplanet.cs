@@ -46,7 +46,7 @@ namespace Assignment_3Prog2
             outputString += $"Name     :  {Name}        \n";
             outputString += $"Diameter :  {Diameter}    \n";
             outputString += $"Mass     :  {Mass}        \n";
-            outputString += $"Type     :  {m_oxygen}    \n";
+            outputString += $"Oxygen   :  {m_oxygen}    \n";
             outputString += $"************************* \n";
             
             return outputString;
